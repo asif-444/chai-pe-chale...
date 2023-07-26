@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="night">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea House</title>
+    <!-- tailwind and daisyui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- ubuntu google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- tailwind custom color -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+
+
+    <style>
+        .font-ubuntu {
+            font-family: 'Ubuntu', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="font-ubuntu">
+    <header class="container mx-auto">
+        <div class="hero ">
+            <div class="hero-content flex-col lg:flex-row-reverse">
+                <img src="./images/banner.png" class="max-w-sm rounded-lg shadow-2xl" />
+                <div>
+                    <h1 class="text-7xl font-bold">
+                    Take a tea-break<br>
+                    at the <span class="text  text-orange-600">Tea house</span><br>
+                    and get back to life...</h1>
+                    <p class="py-6">Whatever your problem is, there's a chai for that. If chai can't fix it, it's serious problem.</p>
+                    <button class="btn btn-primary">Taste Now</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
